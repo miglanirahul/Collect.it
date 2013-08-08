@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl
+END
+FuzzyKeyMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/FuzzyKeyMemoryCache.java
+END
+LimitedAgeMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/LimitedAgeMemoryCache.java
+END
+WeakMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/WeakMemoryCache.java
+END
+LRULimitedMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/LRULimitedMemoryCache.java
+END
+FIFOLimitedMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/FIFOLimitedMemoryCache.java
+END
+LargestLimitedMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/LargestLimitedMemoryCache.java
+END
+UsingFreqLimitedMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/memory/impl/UsingFreqLimitedMemoryCache.java
+END

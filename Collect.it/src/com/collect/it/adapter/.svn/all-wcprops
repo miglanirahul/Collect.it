@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/collect/!svn/ver/102/Collect.it/src/com/collect/it/adapter
+END
+ImageGalleryHorizontalViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collect/!svn/ver/59/Collect.it/src/com/collect/it/adapter/ImageGalleryHorizontalViewAdapter.java
+END
+CollectionSelectedHorizontalViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/adapter/CollectionSelectedHorizontalViewAdapter.java
+END
+TagsHorizontalViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/collect/!svn/ver/84/Collect.it/src/com/collect/it/adapter/TagsHorizontalViewAdapter.java
+END
+TagGalleryEditAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/collect/!svn/ver/84/Collect.it/src/com/collect/it/adapter/TagGalleryEditAdapter.java
+END
+SearchCollectionListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collect/!svn/ver/102/Collect.it/src/com/collect/it/adapter/SearchCollectionListAdapter.java
+END
+CollectionHorizontalViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/collect/!svn/ver/76/Collect.it/src/com/collect/it/adapter/CollectionHorizontalViewAdapter.java
+END
+ItemGridListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collect/!svn/ver/74/Collect.it/src/com/collect/it/adapter/ItemGridListAdapter.java
+END
+TagGallery.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/collect/!svn/ver/78/Collect.it/src/com/collect/it/adapter/TagGallery.java
+END
+TagsSelectedHorizontalViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collect/!svn/ver/84/Collect.it/src/com/collect/it/adapter/TagsSelectedHorizontalViewAdapter.java
+END
+CollectionGalleryEditAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collect/!svn/ver/78/Collect.it/src/com/collect/it/adapter/CollectionGalleryEditAdapter.java
+END

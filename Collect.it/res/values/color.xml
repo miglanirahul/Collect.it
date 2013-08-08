@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+    <color name="setting_text_color">#000000</color>
+    <color name="edit_text_color">#000000</color>
+    <color name="edit_text_color_white">#ffffff</color>
+    <color name="home_text_back_color">#A38547</color>
+    <color name="fragment_background_color">#161616</color>
+    <color name="tag_collection_golden_bubble_color">#a58743</color>
+    <color name="tag_collection_red_bubble_color">#b03939</color>
+    <color name="tag_collection_blue_bubble_color">#0000ff</color>
+    <color name="tag_collection_blue_bubble_color1">#488AC7</color>
+    <color name="tag_collection_blue_bubble_color2">#56A5EC</color>
+    <color name="purple_color">#800080</color>
+    <color name="blue">#0000ff</color>
+    <color name="tag_color">#161616</color>
+
+</resources>

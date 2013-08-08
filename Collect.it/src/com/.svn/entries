@@ -1,0 +1,34 @@
+10
+
+dir
+103
+http://192.168.10.17/svn/collect/Collect.it/src/com
+http://192.168.10.17/svn/collect
+
+
+
+2013-06-10T13:07:30.382410Z
+8
+manmeet.batra
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+incomplete
+2a437cdc-1aaa-3544-bd6f-aa8728fe1765
+
+collect
+dir
+
+nostra13
+dir
+

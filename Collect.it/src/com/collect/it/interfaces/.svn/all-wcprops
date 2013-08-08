@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/collect/!svn/ver/8/Collect.it/src/com/collect/it/interfaces
+END
+OnAlertButtonProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collect/!svn/ver/93/Collect.it/src/com/collect/it/interfaces/OnAlertButtonProcess.java
+END
+OnWebServiceProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/collect/!svn/ver/8/Collect.it/src/com/collect/it/interfaces/OnWebServiceProcess.java
+END
+OnCollectionItemProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/collect/!svn/ver/74/Collect.it/src/com/collect/it/interfaces/OnCollectionItemProcess.java
+END
+OnAlertDialogFragmentListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collect/!svn/ver/43/Collect.it/src/com/collect/it/interfaces/OnAlertDialogFragmentListener.java
+END
+OnViewPagerItemSelectionProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/collect/!svn/ver/60/Collect.it/src/com/collect/it/interfaces/OnViewPagerItemSelectionProcess.java
+END
+OnUserDetailProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/collect/!svn/ver/53/Collect.it/src/com/collect/it/interfaces/OnUserDetailProcess.java
+END
+OnGooglePlusShareProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/collect/!svn/ver/8/Collect.it/src/com/collect/it/interfaces/OnGooglePlusShareProcess.java
+END
+OnSelectedItemProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collect/!svn/ver/78/Collect.it/src/com/collect/it/interfaces/OnSelectedItemProcess.java
+END

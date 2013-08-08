@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core
+END
+ImageLoadingInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/ImageLoadingInfo.java
+END
+LoadAndDisplayImageTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/LoadAndDisplayImageTask.java
+END
+ImageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/ImageLoader.java
+END
+ImageDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/ImageDecoder.java
+END
+ImageLoaderConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/ImageLoaderConfiguration.java
+END
+DisplayBitmapTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/DisplayBitmapTask.java
+END
+DefaultConfigurationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/DefaultConfigurationFactory.java
+END
+DisplayImageOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/DisplayImageOptions.java
+END

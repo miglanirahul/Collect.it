@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/disc
+END
+BaseDiscCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/disc/BaseDiscCache.java
+END
+LimitedDiscCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/disc/LimitedDiscCache.java
+END
+DiscCacheAware.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/cache/disc/DiscCacheAware.java
+END

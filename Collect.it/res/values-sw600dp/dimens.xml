@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">19dp</dimen>
+    <dimen name="activity_vertical_margin">19dp</dimen>
+
+    <!-- padding for left right top bottom -->
+    <dimen name="padding_general">13dp</dimen>
+    <!-- padding for bottom right top bottom -->
+    <dimen name="padding_bottom_general">13dp</dimen>
+
+    <!-- padding for top -->
+    <dimen name="padding_top_general">13dp</dimen>
+    <!-- padding for left -->
+    <dimen name="padding_left_general">13dp</dimen>
+
+    <!-- padding top for login screen -->
+    <dimen name="padding_top_login">70dp</dimen>
+
+    <!-- padding for right -->
+    <dimen name="padding_right_general">13dp</dimen>
+    <dimen name="padding_right_general_trippel">39dp</dimen>
+
+    <!-- padding for signup edit text left -->
+    <dimen name="padding_left_editbox">13dp</dimen>
+    <dimen name="padding_left_editbox_extra">45dp</dimen>
+    <dimen name="padding_left_editbox_extra_double">70dp</dimen>
+
+    <!-- padding for signup buttons (Google+ and Facebook) left -->
+    <dimen name="padding_left_signup_google_facebook">37dp</dimen>
+
+    <!-- margin left top right bottom -->
+    <dimen name="margin_general">13dp</dimen>
+    <!-- margin top relative component -->
+    <dimen name="margin_top_general">13dp</dimen>
+    <dimen name="margin_top_general_double">32dp</dimen>
+    <dimen name="margin_top_general_minus">-13dp</dimen>
+    <dimen name="margin_top_general_splash">200dp</dimen>
+     <dimen name="margin_top_general_half">7dp</dimen>
+    <!-- margin bottom relative component -->
+    <dimen name="margin_bottom_general">13dp</dimen>
+
+    <!-- margin left relative component -->
+    <dimen name="margin_left_general">13dp</dimen>
+    <!-- margin left 5dp relative component -->
+    <dimen name="margin_left_five_dp">7dp</dimen>
+     <dimen name="margin_left_general_dp_minus">-26dp</dimen>
+
+    <!-- margin right relative component -->
+    <dimen name="margin_right_general">13dp</dimen>
+
+    <!-- image placeholder dimension size -->
+    <dimen name="image_placeholder">70dp</dimen>
+    <dimen name="image_placeholder_dimen">130dp</dimen>
+
+    <!-- icon placeholder dimension size -->
+    <dimen name="icon_image">50dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_size_normal">21sp</dimen>
+    <dimen name="text_size_signup_popup_big">28sp</dimen>
+    <dimen name="text_size_signup_popup_normal">21sp</dimen>
+    <dimen name="text_size_header">29sp</dimen>
+
+    <!-- add item screen image gallery Image size -->
+    <dimen name="add_item_image_gallery_image_size">140dp</dimen>
+
+    <!-- View pager -->
+    <dimen name="viewpager_imagegallery_height">150dp</dimen>
+    <dimen name="viewpager_general_height">100dp</dimen>
+
+    <!-- minimum width of edit text for add item -->
+    <dimen name="min_width_edittext">100dp</dimen>
+
+    <!-- minimum height for the comment list -->
+    <dimen name="min_height_comment_list">200dp</dimen>
+    
+    <!-- item detail description text size -->
+     <dimen name="text_size_item_detail_description">30dp</dimen>
+     <dimen name="text_size_item_detail_description_header">25dp</dimen>
+     <dimen name="min_width_item_image">150dp</dimen>
+     
+     <!-- search collection -->
+	<dimen name="collection_image_height">150dp</dimen>
+
+</resources>

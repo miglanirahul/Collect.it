@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/setting_top_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/account_capital"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_account_section_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_general" >
+
+            <RelativeLayout
+                android:id="@+id/setting_edit_profile_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_top_bg"
+                android:padding="@dimen/padding_general" >
+
+                <ImageView
+                    android:id="@+id/setting_edit_profile_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_edit_profile_setting" />
+
+                <TextView
+                    android:id="@+id/setting_edit_profile_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_edit_profile_icon"
+                    android:text="@string/edit_profile"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_edit_profile_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_find_friend_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_middle_bg"
+                android:padding="@dimen/padding_general" >
+
+                <ImageView
+                    android:id="@+id/setting_find_friend_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_find_friends_setting" />
+
+                <TextView
+                    android:id="@+id/setting_find_friend_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_find_friend_icon"
+                    android:text="@string/find_friend"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_find_friend_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_notification_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_middle_bg"
+                android:padding="@dimen/padding_general" >
+
+                <ImageView
+                    android:id="@+id/setting_notification_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_notification_setting" />
+
+                <TextView
+                    android:id="@+id/setting_notification_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_notification_icon"
+                    android:text="@string/notification_setting"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_notification_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_privacy_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_bottom_bg"
+                android:padding="@dimen/padding_general" >
+
+                <ImageView
+                    android:id="@+id/setting_privacy_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_privacy_setting" />
+
+                <TextView
+                    android:id="@+id/setting_privacy_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_privacy_icon"
+                    android:text="@string/privacy_setting"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_privacy_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/social_capital"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_support_section_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_general" >
+
+            <RelativeLayout
+                android:id="@+id/setting_googleplus_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_top_bg"
+                android:padding="@dimen/padding_general" >
+
+                <ImageView
+                    android:id="@+id/setting_googleplus_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_google_setting" />
+
+                <TextView
+                    android:id="@+id/setting_googleplus_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_googleplus_icon"
+                    android:text="@string/google_plus"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_googleplus_checkbox_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/check_box_unselect" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_facebook_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_bottom_bg"
+                android:padding="@dimen/padding_general" >
+
+                <ImageView
+                    android:id="@+id/setting_facebook_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_fb_setting" />
+
+                <TextView
+                    android:id="@+id/setting_facebook_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_facebook_icon"
+                    android:text="@string/facebook"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_facebook_checkbox_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/check_box_unselect" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_twitter_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_bottom_bg"
+                android:padding="@dimen/padding_general" 
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/setting_twitter_icon"
+                    android:layout_width="@dimen/icon_image"
+                    android:layout_height="@dimen/icon_image"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_twitter_setting" />
+
+                <TextView
+                    android:id="@+id/setting_twitter_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:layout_toRightOf="@id/setting_twitter_icon"
+                    android:text="@string/twitter"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_twitter_checkbox_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/check_box_unselect" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/support_capital"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_support_section_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_general" >
+
+            <RelativeLayout
+                android:id="@+id/setting_help_center_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_top_bg"
+                android:padding="@dimen/padding_general" >
+
+                <TextView
+                    android:id="@+id/setting_help_center_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:text="@string/help_center"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_help_center_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_feedback_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_bottom_bg"
+                android:padding="@dimen/padding_general" >
+
+                <TextView
+                    android:id="@+id/setting_feedback_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:text="@string/feedback"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_feedback_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/legal_capital"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_legal_section_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_general" >
+
+            <RelativeLayout
+                android:id="@+id/setting_terms_services_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_single_bg"
+                android:padding="@dimen/padding_general" >
+
+                <TextView
+                    android:id="@+id/setting_terms_services_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:text="@string/terms_of_services"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <ImageView
+                    android:id="@+id/setting_terms_services_arrow_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_button_linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/setting_logout_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_general"
+                android:layout_marginRight="@dimen/margin_right_general"
+                android:layout_marginTop="@dimen/margin_top_general"
+                android:background="@drawable/signup_button"
+                android:text="@string/log_out"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/setting_delete_account_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_general"
+                android:background="@drawable/delete_btn"
+                android:text="@string/delete_account"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

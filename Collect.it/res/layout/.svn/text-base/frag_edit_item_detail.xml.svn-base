@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.collect.it.utils.VerticalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_item_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background_color" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_general" >
+
+        <com.collect.it.utils.HorizontalListView
+            android:id="@+id/edit_item_image_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frames_background"
+            android:gravity="center_vertical" >
+        </com.collect.it.utils.HorizontalListView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_general"
+            android:text="@string/describe_it"
+            android:textColor="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_background"
+            android:padding="@dimen/padding_general" >
+
+            <EditText
+                android:id="@+id/edit_item_description_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_general"
+                android:background="@drawable/search_bar"
+                android:hint="@string/describe_it_hint"
+                android:nextFocusDown="@+id/edit_item_tag_edittext"
+                android:paddingLeft="@dimen/padding_left_editbox"
+                android:singleLine="true"
+                android:textColor="@color/edit_text_color_white" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_general"
+            android:gravity="center"
+            android:padding="@dimen/padding_general"
+            android:text="@string/tag_it"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_general" >
+
+            <com.collect.it.utils.HorizontalListView
+                android:id="@+id/edit_item_tag_selected_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/share_background"
+                android:visibility="gone" >
+            </com.collect.it.utils.HorizontalListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_bottom_general"
+                android:paddingTop="@dimen/padding_top_general" >
+
+                <EditText
+                    android:id="@+id/edit_item_tag_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_bar"
+                    android:ellipsize="end"
+                    android:hint="@string/tag_it_hint"
+                    android:imeOptions="actionDone"
+                    android:maxLength="@integer/tag_collection_max_length"
+                    android:nextFocusDown="@+id/edit_item_collection_edittext"
+                    android:paddingLeft="@dimen/padding_left_editbox"
+                    android:paddingRight="@dimen/padding_left_editbox"
+                    android:singleLine="true"
+                    android:textColor="@color/edit_text_color_white" />
+
+                <Button
+                    android:id="@+id/edit_item_tag_add_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:background="@drawable/enter"
+                    android:text="@string/add_btn"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_general"
+                android:text="@string/recent_tags"
+                android:textColor="@color/gray" />
+
+            <com.collect.it.utils.HorizontalListView
+                android:id="@+id/edit_item_tag_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_general"
+                android:background="@drawable/share_background" >
+            </com.collect.it.utils.HorizontalListView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_general"
+            android:text="@string/choose_collection"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_general" >
+
+            <com.collect.it.utils.HorizontalListView
+                android:id="@+id/edit_item_collection_selected_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/share_background"
+                android:visibility="gone" >
+            </com.collect.it.utils.HorizontalListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_bottom_general"
+                android:paddingTop="@dimen/padding_top_general" >
+
+                <EditText
+                    android:id="@+id/edit_item_collection_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_bar"
+                    android:ellipsize="end"
+                    android:hint="@string/choose_collection_hint"
+                    android:imeOptions="actionDone"
+                    android:maxLength="@integer/tag_collection_max_length"
+                    android:paddingLeft="@dimen/padding_left_editbox"
+                    android:paddingRight="@dimen/padding_left_editbox"
+                    android:singleLine="true"
+                    android:textColor="@color/edit_text_color_white" />
+
+                <Button
+                    android:id="@+id/edit_item_collection_add_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_general"
+                    android:background="@drawable/enter"
+                    android:text="@string/add_btn"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_general"
+                android:text="@string/recent_collections"
+                android:textColor="@color/gray" />
+
+            <com.collect.it.utils.HorizontalListView
+                android:id="@+id/edit_item_collection_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_general"
+                android:background="@drawable/share_background" >
+            </com.collect.it.utils.HorizontalListView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_general"
+            android:text="@string/status_header"
+            android:textColor="@color/gray" />
+
+        <RadioGroup
+            android:id="@+id/edit_item_status_radiogroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_general"
+            android:weightSum="3" >
+
+            <RadioButton
+                android:id="@+id/edit_item_own_radio"
+                style="@style/RadioButtonCustomTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/own" />
+
+            <RadioButton
+                android:id="@+id/edit_item_forsale_radio"
+                style="@style/RadioButtonCustomTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/for_sale" />
+
+            <RadioButton
+                android:id="@+id/edit_item_wanted_radio"
+                style="@style/RadioButtonCustomTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wanted" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding_general"
+            android:text="@string/share_it"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_general"
+            android:weightSum="3" >
+
+            <ToggleButton
+                android:id="@+id/edit_item_collectit_toggle"
+                style="@style/ToggleButtonTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_toggle_collectit_selector" />
+
+            <ToggleButton
+                android:id="@+id/edit_item_facebook_toggle"
+                style="@style/ToggleButtonTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_general"
+                android:layout_weight="1"
+                android:background="@drawable/btn_toggle_facebook_selector" />
+
+            <ToggleButton
+                android:id="@+id/edit_item_googleplus_toggle"
+                style="@style/ToggleButtonTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_general"
+                android:layout_weight="1"
+                android:background="@drawable/btn_toggle_google_plus_selector" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/edit_item_save_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_general"
+            android:background="@drawable/signup_button"
+            android:text="@string/save_it"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/edit_item_delete_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_general"
+            android:background="@drawable/delete_btn"
+            android:text="@string/delete_item"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</com.collect.it.utils.VerticalScrollView>

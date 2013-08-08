@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist
+END
+ViewScaleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/ViewScaleType.java
+END
+QueueProcessingType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/QueueProcessingType.java
+END
+ImageSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/ImageSize.java
+END
+ImageScaleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/ImageScaleType.java
+END
+FlushedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/FlushedInputStream.java
+END
+SimpleImageLoadingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/SimpleImageLoadingListener.java
+END
+PauseOnScrollListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/PauseOnScrollListener.java
+END
+ImageLoadingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/ImageLoadingListener.java
+END
+MemoryCacheUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/MemoryCacheUtil.java
+END
+FailReason.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collect/!svn/ver/94/Collect.it/src/com/nostra13/universalimageloader/core/assist/FailReason.java
+END

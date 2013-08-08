@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_item_collection_main_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/search_item_collection_image_framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/search_item_collection_item_data_item_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/collection_image_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/photo_placeholder"
+                android:minHeight="100dp"
+                android:minWidth="100dp"
+                android:scaleType="centerCrop" />
+
+            <ProgressBar
+                android:id="@+id/search_item_collection_item_data_itemimage_progressBar"
+                style="?android:attr/progressBarStyleSmallInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/search_item_collection_item_data_touches_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/touches_bg"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/search_item_collection_item_data_touches_count_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="123" />
+
+            <ImageView
+                android:id="@+id/search_item_collection_item_data_touches_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_touches" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/search_item_collection_item_data_item_desc_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/home_text_back_color"
+        android:text="ITEM DESCRIPTION"
+        android:textColor="@color/white" />
+
+</LinearLayout>

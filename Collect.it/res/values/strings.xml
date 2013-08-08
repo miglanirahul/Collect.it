@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">collect.it</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_google_btn">Login with \nGoogle+</string>
+    <string name="login_facebook_btn">Login with \nFacebook</string>
+    <string name="login_google_login_btn">Login with Google+</string>
+    <string name="login_facebook_login_btn">Login with Facebook</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="start_collectit">START Collect.it</string>
+    <string name="edit">Edit</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name (optional)</string>
+    <string name="username_hint">Add Collect.it Username</string>
+    <string name="username_hint_login">Collect.it Username</string>
+    <string name="email_hint">your@email.com</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="gender_hint">Gender (optional)</string>
+    <string name="about_me_hint">About Me (optional)</string>
+    <string name="account_now_connected">Your account is now connected</string>
+    <string name="create_password_to_finish">create your password to finish</string>
+    <string name="enter_detail_to_finish">Enter your details to finish</string>
+    <string name="create_account">Create Account</string>
+    <string name="landing_upper_txt">Welcome to the Collect.it Beta test. This is a work in progress so thank you for helping us make it great. Please send comments to <a href="mailto:collectitapp@gmail.com">collectitapp@gmail.com</a>. Thanks for participating.</string>
+    <string name="ok">Ok</string>
+    <string name="coming_soon">Coming soon&#8230;</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="comment_hint">add your comment&#8230;</string>
+    <string name="enter_btn">Enter</string>
+    <string name="details">Details</string>
+    <string name="comments">Comments</string>
+    <string name="search_box_hint">Search&#8230;</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="add_more">Add more</string>
+    <string name="go_back">Go back</string>
+    <string name="go_home">Home</string>
+    <string name="add_btn">Add</string>
+    <string name="home_blank_screen_msg">No item added yet!</string>
+    <string name="no_result_founds">Result not found!</string>
+    <string name="search_history_header">SEARCH HISTORY</string>
+    <string name="enter_search_text">Please enter search term</string>
+    <!-- Setting screen -->
+    <string name="account_capital">ACCOUNT</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="my_account">My Account</string>
+    <string name="search">Search</string>
+    <string name="notifications">Notifications</string>
+    <string name="add_item">Add Item</string>
+    <string name="settings">Settings</string>
+    <string name="find_friend">Find Friends</string>
+    <string name="notification_setting">Notification Settings</string>
+    <string name="privacy_setting">Privacy Settings</string>
+    <string name="social_capital">SOCIAL</string>
+    <string name="google_plus">Google+</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="support_capital">SUPPORT</string>
+    <string name="help_center">Help Center</string>
+    <string name="feedback">Feedback</string>
+    <string name="legal_capital">LEGAL</string>
+    <string name="terms_of_services">Terms of Service</string>
+    <string name="log_out">Log Out</string>
+    <string name="items">Items</string>
+    <string name="collections_tab">Collections</string>
+    <string name="touches">Touches</string>
+    <string name="users">Users</string>
+
+    <!-- Edit profile -->
+    <string name="save">Save</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="nickname">Nickname</string>
+    <string name="private_info_capital">PRIVATE INFO</string>
+    <string name="delete_item">Delete Item</string>
+
+    <!-- Add item -->
+    <string name="describe_it">Item Description:</string>
+    <string name="description">Description:</string>
+    <string name="describe_it_hint">Add a description of your item&#8230;</string>
+    <string name="tag_it">Item Tags:</string>
+    <string name="tags">Tags:</string>
+    <string name="collections">Collections:</string>
+    <string name="tag_it_hint">Choose recent tags or create new&#8230;</string>
+    <string name="recent_tags">Recent tags:</string>
+    <string name="recent_collections">Recent collections:</string>
+    <string name="choose_collection">Collection Tags:</string>
+    <string name="choose_collection_hint">Choose recent collections or create new&#8230;</string>
+    <string name="status_header">Status:</string>
+    <string name="own">Own</string>
+    <string name="for_sale">For Sale</string>
+    <string name="wanted">Wanted</string>
+    <string name="on_capital">ON</string>
+    <string name="off_capital">OFF</string>
+    <string name="share_it">Share it:</string>
+    <string name="save_it">Save.it</string>
+    <string name="gallery_image_content_description">You can add images for an item for your related collection.</string>
+    <string name="item_data_user_image_content_description">Image of the associated user for collection item.</string>
+    <string name="gallery_image_loginhome_content_description">static images for the gallery on Login landing screen.</string>
+
+    <!-- Facebook app id -->
+    <!-- <string name="facebook_app_id">135011116700089</string> -->
+    <!-- //testing.testing139 -->
+    <!-- <string name="facebook_app_id">386137774830698</string> -->
+    <!-- collect.it provided by client -->
+	<string name="facebook_app_id">128481217340182</string>
+	
+    <!-- Alert messages -->
+    <string name="username_not_entered">Please enter your username or Sign in through Facebook or Google+</string>
+    <string name="password_not_entered">Please enter password.</string>
+    <string name="connection_error">Error in connection.</string>
+    <string name="connection_error_internet">Couldn\'t find internet connection.</string>
+    <string name="connection_error_collectit">Collect.it server connection error.</string>
+    <string name="app_exit_msg">Would you like to quit?</string>
+    <string name="signout_msg">Would you like to Log out?</string>
+    <string name="enter_fname">Please enter first name</string>
+    <string name="enter_uname">Please enter username</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enter_min_password">Please enter password with at least 6 characters.</string>
+    <string name="enter_old_min_password">Please enter old password with at least 6 characters.</string>
+    <string name="enter_new_min_password">Please enter new password with at least 6 characters.</string>
+    <string name="enter_gender">Please enter gender</string>
+    <string name="enter_email">Please enter email address</string>
+    <string name="enter_email_valid">Please enter valid email address</string>
+    <string name="image_pick_msg">Choose an option</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_current_password">Please enter your current password.</string>
+    <string name="enter_old_password">Please enter your old password.</string>
+    <string name="enter_new_password">Please enter your new password.</string>
+    <string name="old_new_password_same">Your old and new password are same.</string>
+    <string name="try_again">Ooops! Please try again</string>
+    <string name="add_item_popup_btn">Add Item</string>
+    <string name="later_popup_btn">Not right now</string>
+    <string name="add_item_popup_msg_upper">Great!\nYour account has been created.</string>
+    <string name="add_item_popup_msg_below">Are you ready to add your first item?\nOnly you can see the items you add unless you decide to share.</string>
+    <string name="enter_uname_email">Please enter username</string>
+    <string name="enter_description">Please enter description.</string>
+    <string name="enter_tag">Please enter tag(s).</string>
+    <string name="enter_collection">Please enter collection(s).</string>
+    <string name="choose_image">Please choose an image of the item.</string>
+    <string name="item_detail_error_msg">Some error, please choose an item again.</string>
+    <string name="collection_item_list_error_msg">Some error, please choose a collection again.</string>
+    <string name="sharing_message1">I added a new item to my collection(s)</string>
+    <string name="sharing_message2">. Check it out on Collect.it</string>
+    <string name="add_tag_alert_msg">Please enter a tag.</string>
+    <string name="add_collection_alert_msg">Please enter a collection.</string>
+    <string name="delete_item_msg">Would you like to delete this item?</string>
+    <string name="facebook_wall_post_msg">Facebook wall posted successfully!</string>
+     <string name="choose_option_msg">Please choose an option.</string>
+
+    <!-- this string is used after login and userid has been parsed from the web service response -->
+    <string name="success">Success</string>
+    <string name="success_error">Success Error</string>
+
+    <!-- Google analytic tracking id -->
+    <string name="google_analytic_tracking_id">UA-41729480-1</string>
+
+    <!-- Google Analytic screen names -->
+    <string name="ga_landing_screen">Landing screen</string>
+    <string name="ga_login_screen">Login screen</string>
+    <string name="ga_signup_screen">Signup screen</string>
+    <string name="ga_signup_facebook_screen">Facebook signup screen</string>
+    <string name="ga_signup_googleplus_screen">GooglePlus signup screen</string>
+    <string name="ga_edit_profile_screen">Edit profile screen</string>
+    <string name="ga_change_password_screen">Change password screen</string>
+    <string name="ga_additem_screen">Add item screen</string>
+    <string name="ga_home_screen">Home screen</string>
+    <string name="ga_search_screen">Search screen</string>
+    <string name="ga_notification_screen">Notification screen</string>
+    <string name="ga_profile_screen">User profile screen</string>
+    <string name="ga_setting_screen">Setting screen</string>
+    <string name="ga_item_detail_screen">Item detail screen</string>
+    <string name="ga_edit_item_screen">Edit item screen</string>
+    <string name="ga_search_item_screen">Search item screen</string>
+    <string name="ga_search_item_history_screen">Search History screen</string>
+    <string name="ga_collection_item_list_screen">Collection item list screen</string>
+
+</resources>

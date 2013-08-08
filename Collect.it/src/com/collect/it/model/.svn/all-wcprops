@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/collect/!svn/ver/99/Collect.it/src/com/collect/it/model
+END
+ItemCollectionDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/collect/!svn/ver/89/Collect.it/src/com/collect/it/model/ItemCollectionDataModel.java
+END
+ItemDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collect/!svn/ver/78/Collect.it/src/com/collect/it/model/ItemDataModel.java
+END
+ImageAspectDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/model/ImageAspectDataModel.java
+END
+SearchRecentDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/model/SearchRecentDataModel.java
+END
+SearchUserDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/model/SearchUserDataModel.java
+END
+SearchCollectionDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/model/SearchCollectionDataModel.java
+END
+ImageGalleryDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collect/!svn/ver/60/Collect.it/src/com/collect/it/model/ImageGalleryDataModel.java
+END
+ItemTagDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/collect/!svn/ver/76/Collect.it/src/com/collect/it/model/ItemTagDataModel.java
+END
+CollectItSharedDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/collect/!svn/ver/99/Collect.it/src/com/collect/it/model/CollectItSharedDataModel.java
+END
+UserDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collect/!svn/ver/53/Collect.it/src/com/collect/it/model/UserDataModel.java
+END
+SearchItemDataModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collect/!svn/ver/99/Collect.it/src/com/collect/it/model/SearchItemDataModel.java
+END
+GoogleAnalyticModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collect/!svn/ver/33/Collect.it/src/com/collect/it/model/GoogleAnalyticModel.java
+END

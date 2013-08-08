@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/server/communication
+END
+WebServiceAsyncHttpPostJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/server/communication/WebServiceAsyncHttpPostJson.java
+END
+HttpPostJsonWithoutAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/collect/!svn/ver/69/Collect.it/src/com/collect/it/server/communication/HttpPostJsonWithoutAsync.java
+END

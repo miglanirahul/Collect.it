@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/viewpager_tag_collection_item_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_general"
+        android:gravity="center"
+        android:paddingLeft="@dimen/padding_left_general"
+        android:paddingRight="@dimen/padding_right_general_trippel" >
+    </TextView>
+
+</FrameLayout>

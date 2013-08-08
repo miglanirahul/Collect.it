@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signup_facebook_googleplus_btn_linear"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_general"
+    android:weightSum="2" >
+
+    <Button
+        android:id="@+id/signup_googleplus_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/signup_google_button"
+        android:paddingLeft="@dimen/padding_left_signup_google_facebook"
+        android:paddingRight="@dimen/padding_right_general"
+        android:text="@string/login_google_btn"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/signup_facebook_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_general"
+        android:layout_weight="1"
+        android:background="@drawable/signup_fb_button"
+        android:paddingLeft="@dimen/padding_left_signup_google_facebook"
+        android:paddingRight="@dimen/padding_right_general"
+        android:text="@string/login_facebook_btn"
+        android:textColor="@color/white" />
+
+</LinearLayout>

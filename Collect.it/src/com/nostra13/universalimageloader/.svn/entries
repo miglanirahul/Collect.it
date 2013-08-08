@@ -1,0 +1,37 @@
+10
+
+dir
+103
+http://192.168.10.17/svn/collect/Collect.it/src/com/nostra13/universalimageloader
+http://192.168.10.17/svn/collect
+
+
+
+2013-07-30T08:03:04.175887Z
+94
+manmeet.batra
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2a437cdc-1aaa-3544-bd6f-aa8728fe1765
+
+cache
+dir
+
+core
+dir
+
+utils
+dir
+

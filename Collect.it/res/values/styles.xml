@@ -1,0 +1,55 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme_Dialog_Double_Alert" parent="@android:style/Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/fragment_background_color</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- Radio button for add item screen -->
+    <style name="RadioButtonCustomTheme" parent="android:Theme">
+        <item name="android:radioButtonStyle">@style/RadioButtonTheme</item>
+    </style>
+
+    <style name="RadioButtonTheme" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_selector</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- Toggle button for add item screen -->
+    <style name="ToggleButtonCustomTheme" parent="android:Theme">
+        <item name="android:buttonStyleToggle">@style/ToggleButtonTheme</item>
+    </style>
+
+    <style name="ToggleButtonTheme" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:textColor">@drawable/color_gray_white_selector</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+
+</resources>

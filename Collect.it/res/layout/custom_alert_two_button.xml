@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="30dp" >
+
+    <TextView
+        android:id="@+id/custom_alert_two_btn_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_item_popup_msg_upper"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_signup_popup_big"
+        android:textStyle="bold" 
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/custom_alert_two_btn__below_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_alert_two_btn_txt"
+        android:text="@string/add_item_popup_msg_below"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/text_size_signup_popup_normal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_alert_two_btn__below_txt"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="20dp" 
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/custom_alert_two_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:background="@drawable/btn_signup_popup_selector"
+            android:text="@string/later_popup_btn"
+            android:textColor="@color/white" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/custom_alert_two_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_general"
+            android:minWidth="120dp"
+            android:background="@drawable/btn_signup_popup_selector"
+            android:text="@string/add_item_popup_btn"
+            android:textColor="@color/white" 
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

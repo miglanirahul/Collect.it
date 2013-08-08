@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/collect/!svn/ver/8/Collect.it/src/com/collect/it/utils
+END
+GetUserCollectionItemList.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collect/!svn/ver/99/Collect.it/src/com/collect/it/utils/GetUserCollectionItemList.java
+END
+DecorderImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/collect/!svn/ver/102/Collect.it/src/com/collect/it/utils/DecorderImage.java
+END
+UploadData.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/collect/!svn/ver/72/Collect.it/src/com/collect/it/utils/UploadData.java
+END
+VerticalScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collect/!svn/ver/60/Collect.it/src/com/collect/it/utils/VerticalScrollView.java
+END
+InternetConnectivityBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/collect/!svn/ver/70/Collect.it/src/com/collect/it/utils/InternetConnectivityBroadcastReceiver.java
+END
+HorizontalListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collect/!svn/ver/60/Collect.it/src/com/collect/it/utils/HorizontalListView.java
+END
+UtilityMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/collect/!svn/ver/93/Collect.it/src/com/collect/it/utils/UtilityMethods.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/collect/!svn/ver/103/Collect.it/src/com/collect/it/utils/ImageUtils.java
+END
+GetUserDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collect/!svn/ver/70/Collect.it/src/com/collect/it/utils/GetUserDetail.java
+END
+SetAspectRatio.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/collect/!svn/ver/79/Collect.it/src/com/collect/it/utils/SetAspectRatio.java
+END
+SignOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/collect/!svn/ver/99/Collect.it/src/com/collect/it/utils/SignOut.java
+END
+ParsingUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collect/!svn/ver/102/Collect.it/src/com/collect/it/utils/ParsingUtils.java
+END

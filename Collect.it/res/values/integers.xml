@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Connectivity animation interval -->
+    <integer name="connectivity_anim_interval">200</integer>
+
+    <!-- Password field maximu length -->
+    <integer name="password_max_length">6</integer>
+    
+    <!-- tag and collection feild maximum length -->
+    <integer name="tag_collection_max_length">50</integer>
+    
+
+</resources>

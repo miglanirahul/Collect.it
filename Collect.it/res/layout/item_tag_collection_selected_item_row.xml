@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/item_tag_collection_selected_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_general"
+        android:gravity="center"
+        android:paddingLeft="@dimen/padding_left_general"
+        android:paddingRight="@dimen/padding_right_general_trippel" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/item_tag_collection_selected_cros_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_left_general_dp_minus"
+        android:src="@drawable/icon_cross" />
+
+</LinearLayout>

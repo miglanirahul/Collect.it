@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signup_connectivity_facebook"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/connect_img_one"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_two"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_three"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_four"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_five"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_six"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_seven"
+        android:duration="@integer/connectivity_anim_interval"/>
+    <item
+        android:drawable="@drawable/connect_img_eight"
+        android:duration="@integer/connectivity_anim_interval"/>
+
+</animation-list>

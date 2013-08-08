@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background_color"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_general" >
+
+    <TextView
+        android:id="@+id/item_detail_desc_heading_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/describe_it"
+        android:textColor="@color/gray" 
+        android:textSize="@dimen/text_size_item_detail_description_header"/>
+
+    <TextView
+        android:id="@+id/item_detail_desc_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_item_detail_description" />
+
+    <TextView
+        android:id="@+id/item_detail_tag_heading_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_general"
+        android:gravity="center_horizontal"
+        android:text="@string/tag_it"
+        android:textColor="@color/gray" 
+        android:textSize="@dimen/text_size_item_detail_description_header"/>
+
+    <com.collect.it.utils.HorizontalListView
+        android:id="@+id/item_detail_tag_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_general"
+        android:background="@drawable/share_background" >
+    </com.collect.it.utils.HorizontalListView>
+
+    <TextView
+        android:id="@+id/item_detail_collection_heading_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_general"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_collection"
+        android:textColor="@color/gray" 
+        android:textSize="@dimen/text_size_item_detail_description_header"/>
+
+    <com.collect.it.utils.HorizontalListView
+        android:id="@+id/item_detail_collection_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_general"
+        android:background="@drawable/share_background" >
+    </com.collect.it.utils.HorizontalListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_general"
+        android:background="@drawable/status_bar"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_general" >
+
+        <TextView
+            android:id="@+id/item_detail_status_header_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status_header"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_item_detail_description" />
+
+        <TextView
+            android:id="@+id/item_detail_status_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_item_detail_description" />
+    </LinearLayout>
+
+</LinearLayout>
